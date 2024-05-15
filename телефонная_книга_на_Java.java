@@ -16,18 +16,6 @@ public class телефонная_книга_на_Java {
         Map<String, ArrayList<String>> telephonebook = new HashMap<>();
         Scanner scanner = new Scanner(System.in);
         
-        // ArrayList<String> first_phone = new ArrayList<>();
-        // first_phone.add("1234");
-        // telephonebook.put("Иванов", first_phone);
-        // // System.out.println(telephonebook);
-        // // telephonebook.get("Иванов").add("123");
-        // System.out.println(telephonebook);
-
-        // telephonebook.put("петров", new ArrayList<String>());
-        // System.out.println(telephonebook);
-        // telephonebook.put("Иванов", new ArrayList<String>());
-        // telephonebook.get("Иванов").add("2221");
-        // System.out.println(telephonebook);
         System.out.println("Добро пожаловать в телефонную книгу! Ознакомьтесь с командами:");
         System.out.println("add_new - добавить новый контакт");
         System.out.println("add_phone - добавить телефон к существующему контакту");
@@ -64,7 +52,9 @@ public class телефонная_книга_на_Java {
                 System.out.println("Упс! Кажется такой команды нет. Напомню:");
                 System.out.println("add_new - добавить новый контакт");
                 System.out.println("add_phone - добавить телефон к существующему контакту");
-                System.out.println("find - найти контакт");
+                System.out.println("find - найти контакт по имени");
+                System.out.println("del_contact - удалить контакт полностью");
+                System.out.println("all - вывести всю телефонную книгу");
             }
 
             
@@ -143,21 +133,6 @@ public class телефонная_книга_на_Java {
         System.out.println(treemap_telephonebook);
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
